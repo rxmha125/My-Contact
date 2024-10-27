@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Options</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4; /* Soft background color */
+      font-family: 'Arial', sans-serif; /* Modern font */
+    }
+
+    h1 {
+      margin-bottom: 20px; /* Space below title */
+      color: #333; /* Darker color for the title */
+      font-size: 24px; /* Title font size */
+    }
+
+    .btn-container {
+      display: flex;
+      flex-direction: column; /* Vertical stacking */
+      align-items: center; /* Center align */
+      gap: 10px; /* Space between buttons */
+    }
+
+    .btn {
+      background-color: #007bff; /* Button color */
+      color: white; /* Button text color */
+      text-decoration: none; /* Remove underline */
+      padding: 10px 15px; /* Button padding */
+      border-radius: 5px; /* Rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+      transition: background-color 0.3s, transform 0.3s; /* Hover effects */
+      font-size: 14px; /* Font size */
+      width: 200px; /* Fixed width for buttons */
+      text-align: center; /* Center text */
+      display: flex; /* Flexbox for icon and text */
+      align-items: center; /* Center icon vertically */
+      justify-content: center; /* Center text */
+    }
+
+    .btn i {
+      margin-right: 8px; /* Space between icon and text */
+    }
+
+    .btn:hover {
+      background-color: #0056b3; /* Darker shade on hover */
+      transform: translateY(-2px); /* Lift effect on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="btn-container">
+      <h1>Contact With Rx</h1>
+    <a class="btn" href="mailto:rx.mha2@gmail.com?subject=Hello&body=Type your message here" target="_blank"><i class="fas fa-envelope"></i>Send Email</a>
+    <a class="btn" href="sms:+8801758292375?body=Hello, this is a test message" target="_blank"><i class="fas fa-sms"></i>Send SMS</a>
+    <a class="btn" href="tel:+8801326986129" target="_blank"><i class="fas fa-phone"></i>Call Now</a>
+    <a class="btn" href="https://www.facebook.com/profile.php?id=61559984093331" target="_blank"><i class="fab fa-facebook-f"></i>Follow on Facebook</a>
+    <a class="btn" href="https://m.me/100089632248482" target="_blank"><i class="fab fa-facebook-messenger"></i>Message on Messenger</a>
+    <a class="btn" href="https://youtube.com/@rxsocialmedia?si=EGUE5p1JvdMcWvR0" target="_blank"><i class="fab fa-youtube"></i>Subscribe on YouTube</a>
+    <a class="btn" href="https://fbbrx.netlify.app/" target="_blank"><i class="fas fa-globe"></i>Website 1</a>
+    <a class="btn" href="https://rxwather.netlify.app/" target="_blank"><i class="fas fa-globe"></i>Website 2</a>
+    <a class="btn" href="https://rxsocialmedia.netlify.app/" target="_blank"><i class="fas fa-globe"></i>Website 3</a>
+
+    <!-- New Functionality -->
+    <a class="btn" href="https://wa.me/+8801758292375?text=Hello,%20this%20is%20a%20test%20message" target="_blank"><i class="fab fa-whatsapp"></i>Message on WhatsApp</a>
+    <a class="btn" href="https://twitter.com/intent/tweet?text=Check%20this%20out!%20&url=https://fbbrx.netlify.app/" target="_blank"><i class="fab fa-twitter"></i>Share on Twitter</a>
+    <a class="btn" href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin-in"></i>Visit LinkedIn Profile</a>
+    <a class="btn" href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AN:Your Name%0AEMAIL:rx.mha2@gmail.com%0ATEL:+8801326986129%0AEND:VCARD" download="contact.vcf"><i class="fas fa-address-book"></i>Add to Contacts</a>
+  </div>
+
+</body>
+</html>
